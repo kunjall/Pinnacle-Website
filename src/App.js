@@ -5,6 +5,8 @@ import Navbar from "./components/navbar/navbar";
 import Background from "./assets/images/Background.png";
 import Home from "./pages/home";
 import Solutions from "./pages/solutions";
+import Customers from "./pages/customers";
+import About from "./pages/about";
 import "../src/assets/styles/App.css";
 import BackToTopButton from "./components/backtotop/backtotop";
 
@@ -17,6 +19,8 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/solutions" element={<Solutions />} />
+            <Route path="/customers" element={<Customers />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
       </Router>

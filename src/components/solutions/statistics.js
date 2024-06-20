@@ -8,7 +8,7 @@ const Statistics = () => {
     <div style={{ backgroundColor: "#f5f5f6" }}>
       <div className="verticals-container">
         <div className="verticals-heading">
-          <h1>Competence In Steel / Civil Structures  </h1>
+          <h1>Brief Statistics of Recent Projects</h1>
         </div>
         <div className="verticals-row">
           <StatisticsTable />

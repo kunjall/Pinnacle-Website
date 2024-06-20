@@ -3,8 +3,14 @@ import "../../assets/styles/winning.css";
 import Leadership from "../../assets/images/leadership.jpeg";
 import ValueComponent from "./valuesComponent";
 import Button from "@mui/material/Button";
+import { useNavigate } from "react-router-dom";
 
 const Values = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/about");
+  };
   return (
     <div style={{ backgroundColor: "#e0e0e0" }}>
       <div className="winning-container">
@@ -55,6 +61,7 @@ const Values = () => {
             />
             <Button
               variant="contained"
+              onClick={handleClick}
               sx={{
                 width: "250px",
                 mt: 2,

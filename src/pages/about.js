@@ -7,7 +7,7 @@ import Verticals from "../components/solutions/verticalsSolutions";
 import Competence from "../components/solutions/competence";
 import Statistics from "../components/solutions/statistics";
 
-const Solutions = () => {
+const About = () => {
   return (
     <div>
       <GlobalStyles
@@ -36,4 +36,4 @@ const Solutions = () => {
   );
 };
 
-export default Solutions;
+export default About;

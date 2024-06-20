@@ -1,0 +1,33 @@
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.carousel-item {
+  min-width: 200px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100px; /* Adjust the max height as needed */
+  object-fit: contain; /* Keep aspect ratio */
+}
