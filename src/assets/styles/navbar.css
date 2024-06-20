@@ -1,5 +1,5 @@
 .header {
-  position: fixed;
+  position: relative;
   font-family: "Source Sans Pro", sans-serif;
   top: 0;
   left: 0;
@@ -11,12 +11,13 @@
   padding: 0 20px;
   box-sizing: border-box; /* Ensure padding is included in width calculation */
   font-size: 18px;
+  color: white; /* Text color */
 }
 
 .header nav {
+  display: flex; /* Display the nav as flex */
   flex: 1;
-  display: flex;
-  justify-content: right;
+  justify-content: flex-end; /* Align items to the right */
 }
 
 .header ul {
@@ -27,24 +28,71 @@
 }
 
 .header li {
-  margin: 0 20px;
+  margin: 0 10px; /* Reduce margin for smaller screens */
 }
 
 .header li a {
   color: white;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: bold;
   transition: color 0.3s; /* Smooth color transition */
 }
 
 .header li a:hover {
-  color: #bf504d;
+  color: #ffbf62;
 }
 
-.header li a:hover ~ a {
-  color: rgba(255, 255, 255, 0.5); /* Make non-hovered links darker */
+/* Hamburger Menu */
+.hamburger {
+  display: none; /* Hide by default */
+  cursor: pointer;
 }
 
-.header ul:hover li a:not(:hover) {
-  color: rgba(255, 255, 255, 0.5); /* Make non-hovered links darker */
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: transform 0.3s, background-color 0.3s; /* Smooth animation */
+}
+
+.hamburger.active div:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active div:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active div:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 20px; /* Adjust padding for smaller header height */
+  }
+
+  .header nav {
+    flex-direction: column; /* Stack items vertically for smaller screens */
+    position: absolute;
+    top: 60px; /* Position below header */
+    left: 0;
+    right: 0;
+    background-color: #333; /* Background color for the dropdown */
+    padding: 10px 0; /* Padding for the dropdown */
+    display: none; /* Hide dropdown by default */
+  }
+
+  .header ul.active {
+    display: flex; /* Show dropdown when active */
+  }
+
+  .header li {
+    margin: 10px 0; /* Adjust margin for stacked links */
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger icon */
+  }
 }

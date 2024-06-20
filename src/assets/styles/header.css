@@ -5,7 +5,7 @@
 }
 
 .outer-headings {
-  height: 100vh;
+  height: 92.5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,7 +36,7 @@ h1 {
 .paragraph {
   margin-top: 10px;
   color: #f3fae1;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 @keyframes animation {
@@ -69,6 +69,10 @@ h1 {
     font-size: 45px; /* Reduced font size */
   }
 
+  .outer-headings {
+    height: 90vh;
+  }
+
   @keyframes animation {
     0%,
     10% {
@@ -96,6 +100,10 @@ h1 {
 @media (max-width: 480px) {
   h1 {
     font-size: 20px;
+  }
+
+  .outer-headings {
+    height: 90vh;
   }
   .inner-headings {
     height: 40px; /* Further reduced height */

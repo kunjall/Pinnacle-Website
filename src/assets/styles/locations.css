@@ -1,0 +1,55 @@
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.location-heading {
+  color: #bf504d;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.location-heading h1 {
+  font-size: 40px;
+}
+
+.location-paragraph {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #757575;
+  margin-top: 10px;
+}
+
+.location-image {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.location-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .location-container {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .location-heading {
+    flex: 1;
+    margin-right: 50px;
+  }
+
+  .location-image {
+    flex: 1;
+    margin-top: 0;
+    margin-left: 50px;
+  }
+}

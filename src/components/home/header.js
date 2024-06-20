@@ -1,8 +1,14 @@
 import React from "react";
 import "../../assets/styles/header.css";
 import Button from "@mui/material/Button";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/solutions");
+  };
   return (
     <div className="outer-headings">
       <h1>
@@ -16,13 +22,16 @@ const Header = () => {
           </span>
         </div>
       </h1>
-      <p className="paragraph">
-        This holistic approach ensures the establishment of mutually beneficial
-        <br />
-        partnerships that foster long-term success and satisfaction.
-      </p>
+      <b>
+        <p className="paragraph">
+          Our holistic approach ensures the establishment <br />
+          of mutually beneficial partnerships that foster <br />
+          long-term success and satisfaction.
+        </p>
+      </b>
       <Button
         variant="contained"
+        onClick={handleClick}
         sx={{
           width: "250px",
           mt: 2,
