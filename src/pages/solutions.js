@@ -4,8 +4,6 @@ import { GlobalStyles } from "@mui/material";
 import Background from "../assets/images/solutions.png";
 import Header from "../components/solutions/headerSolution";
 import Verticals from "../components/solutions/verticalsSolutions";
-import Competence from "../components/solutions/competence";
-import Statistics from "../components/solutions/statistics";
 
 const Solutions = () => {
   return (

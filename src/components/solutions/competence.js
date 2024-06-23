@@ -18,7 +18,7 @@ const Competence = () => {
           style={{
             fontSize: "18px",
             lineHeight: "1.5",
-            color: "#757575",
+            color: "#00000",
             marginTop: "10px",
           }}
         >
