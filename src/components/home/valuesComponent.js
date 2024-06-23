@@ -12,9 +12,7 @@ export default function ValueComponent({ text, summary }) {
           marginBottom: 1,
           border: "3px solid black",
           color: "#00000",
-          maxHeight: "18px",
           "&.Mui-expanded": {
-            // border: "3px solid #bf504d",
             backgroundColor: "#bf504d",
             border: "none",
             color: "#f3fae1",
@@ -27,14 +25,18 @@ export default function ValueComponent({ text, summary }) {
           id="panel1-header"
           sx={{
             backgroundColor: "e0e0e0",
-            maxHeight: "20px",
             "& .MuiAccordionSummary-content": {
               fontFamily: "'Roboto', sans-serif",
               fontSize: "18px",
+              margin: 0,
             },
             "& .MuiAccordionSummary-root": {
               backgroundColor: "#bf504d",
             },
+            "&.Mui-expanded": {
+              minHeight: "40px",
+            },
+            minHeight: "20px",
           }}
         >
           {text}

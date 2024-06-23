@@ -63,12 +63,12 @@ const Values = () => {
               variant="contained"
               onClick={handleClick}
               sx={{
-                width: "250px",
+                width: "220px",
                 mt: 2,
                 backgroundColor: "#bf504d",
                 color: "#ffbf62",
                 fontWeight: "bold",
-                height: "50px",
+                height: "40px",
                 "&:hover": {
                   backgroundColor: "#ffbf62",
                   color: "#bf504d",
