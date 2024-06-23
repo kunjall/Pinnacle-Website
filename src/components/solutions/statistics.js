@@ -5,7 +5,7 @@ import StatisticsTable from "./statisticsTable";
 
 const Statistics = () => {
   return (
-    <div style={{ backgroundColor: "#f5f5f6" }}>
+    <div>
       <div className="verticals-container">
         <div className="verticals-heading">
           <h1>Brief Statistics of Recent Projects</h1>

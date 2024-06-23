@@ -1,7 +1,8 @@
 import React from "react";
 import "../../assets/styles/winning.css";
 import Construction from "../../assets/images/construction.png";
-
+import Competence from "./competence";
+import Statistics from "./statistics";
 const Constructions = () => {
   return (
     <div style={{ backgroundColor: "#e0e0e0" }}>
@@ -26,6 +27,8 @@ const Constructions = () => {
           <img src={Construction} alt="Winning" />
         </div>
       </div>
+      <Competence />
+      <Statistics />
     </div>
   );
 };

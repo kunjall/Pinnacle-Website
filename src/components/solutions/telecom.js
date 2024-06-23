@@ -14,8 +14,8 @@ const Telecom = () => {
               <p style={{ color: "#F6A126" }}>
                 {" "}
                 rollout of Optical Fiber Cables (OFC), construction &
-                electrification of telecom towers and ROW acquisition of telecom
-                infrastructure projects.
+                electrification of telecom towers and ROW / acquisition of
+                telecom infrastructure projects.
               </p>
             </b>
             Together, these efforts enhance connectivity and support the growing

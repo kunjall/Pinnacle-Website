@@ -30,8 +30,6 @@ const Solutions = () => {
       />{" "}
       <Header />
       <Verticals />
-      <Competence />
-      <Statistics />
     </div>
   );
 };

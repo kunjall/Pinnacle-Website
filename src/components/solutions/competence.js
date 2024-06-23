@@ -5,7 +5,7 @@ import Competencelist from "./competenceimage";
 
 const Competence = () => {
   return (
-    <div style={{ backgroundColor: "#f5f5f6" }}>
+    <div>
       <div className="verticals-container">
         <div className="verticals-heading">
           <h1>Competence In Steel / Civil Structures  </h1>
@@ -16,7 +16,7 @@ const Competence = () => {
         <div
           className="competence-row"
           style={{
-            fontSize: "24px",
+            fontSize: "18px",
             lineHeight: "1.5",
             color: "#757575",
             marginTop: "10px",
@@ -24,7 +24,7 @@ const Competence = () => {
         >
           <p>
             The Pinnacle Search has complete competence to install steel towers
-            and build PCC/RCC structures.{" "}
+            and build PCC/RCC structures (actual site images).{" "}
             <b>
               <p style={{ color: "#F6A126" }}>
                 We have the unique expertise to raise steel Towers on cemented
