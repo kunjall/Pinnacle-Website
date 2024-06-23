@@ -9,6 +9,7 @@ import MakeinIndia from "./makeinindia";
 import Protective from "./protective";
 import Nanotech from "./nano";
 import Telecom from "./telecom";
+
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -58,7 +59,7 @@ export default function Verticals() {
             allowScrollButtonsMobile
             TabIndicatorProps={{
               sx: {
-                backgroundColor: "#bf504d", // Change the color of the underline
+                backgroundColor: "#bf504d",
               },
             }}
             sx={{
@@ -71,6 +72,9 @@ export default function Verticals() {
               },
               "& .MuiTabs-flexContainer": {
                 justifyContent: "center",
+              },
+              "& .MuiTab-root": {
+                color: "black",
               },
               "& .MuiTab-root.Mui-selected": {
                 color: "#bf504d",
@@ -85,13 +89,7 @@ export default function Verticals() {
             <Tab label="Telecommunications" {...a11yProps(5)} />
           </Tabs>
         </Box>
-        <CustomTabPanel
-          value={value}
-          index={0}
-          sx={{
-            backgroundColor: "#e0e0e0",
-          }}
-        >
+        <CustomTabPanel value={value} index={0}>
           <Apparels />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>

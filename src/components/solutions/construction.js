@@ -16,8 +16,9 @@ const Constructions = () => {
               specialize in building:
               <b>
                 <p style={{ color: "#F6A126" }}>
-                  bridges, highways and roads, flyovers. We also construct
-                  hangars and lay pipelines.
+                  roads, highways, bridges and etc. We also have capabilities to
+                  construct aircraft hangars and lay pipelines for gas, water
+                  etc.
                 </p>
               </b>
             </p>

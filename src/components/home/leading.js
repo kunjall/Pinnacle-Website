@@ -3,7 +3,7 @@ import "../../assets/styles/leading.css";
 
 const Leading = () => {
   return (
-    <div style={{ backgroundColor: "#bf504d", height: "200px" }}>
+    <div style={{ backgroundColor: "#bf504d", height: "150px" }}>
       <div className="Leading-container">
         <div className="Leading-heading">
           <h1>"Leading with Excellence & Innovation"</h1>
