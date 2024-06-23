@@ -10,7 +10,7 @@ const LocationComponent = () => {
           <img src={Location} alt="location" />
         </div>
         <div className="location-heading">
-          {/* <h1>Regional Presence</h1> */}
+          <h1>Regional Presence</h1>
           <p className="location-paragraph">
             Our presence in key locations like Delhi NCR, Punjab, Rajasthan,
             Kolkata, Maharashtra & Odisha signifies our commitment to being an
