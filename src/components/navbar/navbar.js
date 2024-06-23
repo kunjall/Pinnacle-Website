@@ -45,7 +45,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/test" onClick={toggleDrawer}>
+            <Link to="/contact" onClick={toggleDrawer}>
               Contact Us
             </Link>
           </li>
