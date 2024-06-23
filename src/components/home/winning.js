@@ -16,7 +16,11 @@ const Winning = () => {
           </p>
         </div>
         <div className="winning-image">
-          <img src={Win} alt="Winning" />
+          <img
+            src={Win}
+            alt="Winning"
+            style={{ width: "400px", height: "300px", marginLeft: "150px" }}
+          />
         </div>
       </div>
     </div>
