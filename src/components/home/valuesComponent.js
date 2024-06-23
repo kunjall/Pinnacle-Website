@@ -26,7 +26,7 @@ export default function ValueComponent({ text, summary }) {
           id="panel1-header"
           sx={{
             backgroundColor: "e0e0e0",
-            minHeight: "20px",
+            minHeight: "px",
             "& .MuiAccordionSummary-content": {
               fontFamily: "'Roboto', sans-serif",
               fontSize: "18px",
