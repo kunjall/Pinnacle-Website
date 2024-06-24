@@ -47,7 +47,7 @@ export default function Verticals() {
   };
 
   return (
-    <div style={{ backgroundColor: "#e0e0e0" }}>
+    <div style={{ backgroundColor: "#e0e0e0", marginTop: "300px" }}>
       <Box sx={{ width: "100%" }}>
         <Box>
           <Tabs
@@ -81,12 +81,36 @@ export default function Verticals() {
               },
             }}
           >
-            <Tab label="Apparels" {...a11yProps(0)} />
-            <Tab label="Construction" {...a11yProps(1)} />
-            <Tab label="Make In India" {...a11yProps(2)} />
-            <Tab label="Protective Equipment" {...a11yProps(3)} />
-            <Tab label="Nanotechnology" {...a11yProps(4)} />
-            <Tab label="Telecommunications" {...a11yProps(5)} />
+            <Tab
+              style={{ fontSize: "18px", fontWeight: "bold" }}
+              label="Apparels"
+              {...a11yProps(0)}
+            />
+            <Tab
+              style={{ fontSize: "18px", fontWeight: "bold" }}
+              label="Construction"
+              {...a11yProps(1)}
+            />
+            <Tab
+              style={{ fontSize: "18px", fontWeight: "bold" }}
+              label="Make In India"
+              {...a11yProps(2)}
+            />
+            <Tab
+              style={{ fontSize: "18px", fontWeight: "bold" }}
+              label="Protective Equipment"
+              {...a11yProps(3)}
+            />
+            <Tab
+              style={{ fontSize: "18px", fontWeight: "bold" }}
+              label="Nanotechnology"
+              {...a11yProps(4)}
+            />
+            <Tab
+              style={{ fontSize: "18px", fontWeight: "bold" }}
+              label="Telecommunications"
+              {...a11yProps(5)}
+            />
           </Tabs>
         </Box>
         <CustomTabPanel value={value} index={0}>

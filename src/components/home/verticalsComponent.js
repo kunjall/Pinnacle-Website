@@ -2,7 +2,7 @@ import React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
-import ButtonImage from "../../assets/images/button.jpeg";
+import ApparelImage from "../../assets/images/apparel.jpeg";
 import ConstructionImage from "../../assets/images/construction.jpeg";
 import MakeinIndia from "../../assets/images/makeinindia.jpeg";
 import PPEImage from "../../assets/images/ppe.jpeg";
@@ -56,7 +56,7 @@ export default function CustomImageList() {
 
 const itemData = [
   {
-    img: ButtonImage,
+    img: ApparelImage,
     title: "Apparel",
   },
   {

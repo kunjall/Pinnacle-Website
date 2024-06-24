@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/styles/contact.css";
-import Header from "../components/solutions/headerSolution";
 import { GlobalStyles } from "@mui/material";
 import Background from "../assets/images/Background.png";
 
@@ -13,9 +12,9 @@ const ContactUs = () => {
             backgroundImage: `linear-gradient(0deg, rgba(191, 80, 77, 0.3), rgba(191, 80, 77, 0.3)), url(${Background})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
-            backgroundSize: "100% 100%", // Adjusted background size to cover entire viewport
+            backgroundSize: "100% 100%",
             margin: 0,
-            height: "100vh", // Ensure full viewport height
+            height: "100vh",
           },
           html: {
             height: "100%",

@@ -2,11 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { GlobalStyles } from "@mui/material";
 import Background from "../assets/images/Background.png";
-import Header from "../components/customers/headerCustomers";
-import Customer from "../components/customers/customersmain";
-import LogoCarousel from "../components/customers/LogoCarousel";
+import Header from "../components/projects/headerProjects";
+import Statistics from "../components/projects/statistics";
 
-const Customers = () => {
+const Projects = () => {
   return (
     <div>
       <GlobalStyles
@@ -27,10 +26,9 @@ const Customers = () => {
         }}
       />{" "}
       <Header />
-      <Customer />
-      <LogoCarousel />
+      <Statistics />
     </div>
   );
 };
 
-export default Customers;
+export default Projects;

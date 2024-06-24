@@ -29,6 +29,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link to="/about" onClick={toggleDrawer}>
+              About Us
+            </Link>
+          </li>
+          <li>
             <Link to="/solutions" onClick={toggleDrawer}>
               Solutions
             </Link>
@@ -40,10 +45,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/about" onClick={toggleDrawer}>
-              About Us
+            <Link to="/projects" onClick={toggleDrawer}>
+              Projects
             </Link>
           </li>
+
           <li>
             <Link to="/contact" onClick={toggleDrawer}>
               Contact Us

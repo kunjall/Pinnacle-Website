@@ -13,15 +13,13 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
     backgroundColor: "#333",
     color: theme.palette.common.white,
     fontFamily: "Montserrat, sans-serif",
-    fontSize: "16px",
-    fontWeight: "bold",
+    fontSize: "20px",
     textTransform: "uppercase",
   },
   [`&.${tableCellClasses.body}`]: {
-    fontSize: "14px",
+    fontSize: "18px",
     fontFamily: "Montserrat, sans-serif",
     color: "#555",
-    fontWeight: "bold",
   },
 }));
 
@@ -41,19 +39,22 @@ function createData(serial, projectName, projectCost) {
 const rows = [
   createData(
     1,
-    "Construction of 4-Lane of Itanagar-Banderdewa section of NH-415 Km. Km 51+700 to Km 59+199 on EPC Mode in the state of Arunachal Pradesh.",
+    "Construction of 4-Lane of Itanagar-Banderdewa section in the state of Arunachal Pradesh.",
     "301.20 Cr."
   ),
   createData(
     2,
-    "Rehabilitation and upgradation to 2-Lane with paved shoulder including of NH-510 (Singtam – Tarku – Rabangla – Legship - Gyalshing) Package-IV (Design Chainage from Km. 33+600 to Km 58+840) in the State of Sikkim in EPC Mode- Package-IV.",
+    "Rehabilitation and upgradation to paved shoulder in the State of Sikkim ",
     "144.90 Cr."
   ),
   createData(
     3,
-    "Four Laning of Silchar - Dhanehari Section (Package-1) from Existing Ch. Km 263+800 of NH-37 to km 12+920 of NH-306 (Design Chainage km 0+000 to km 20+000) on Silchar - Vairengte - Sairang Road in the State of Assam under Bharatmala Pariyojna on EPC Mode.",
+    "Four Laning of Silchar - Dhanehari Section  in the State of Assam under Bharatmala Pariyojna.",
     "144.75 Cr."
   ),
+  createData(4, "FTTH Project Details??????", "144.75 Cr."),
+  createData(5, "Tower Details?????", "144.75 Cr."),
+  createData(6, "others????", "144.75 Cr."),
 ];
 
 export default function StatisticsTable() {
@@ -64,7 +65,7 @@ export default function StatisticsTable() {
           <TableRow>
             <StyledTableCell>S.No</StyledTableCell>
             <StyledTableCell>Project Name</StyledTableCell>
-            <StyledTableCell>Cost</StyledTableCell>
+            <StyledTableCell>Cost </StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>

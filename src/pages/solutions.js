@@ -11,10 +11,10 @@ const Solutions = () => {
       <GlobalStyles
         styles={{
           body: {
-            backgroundImage: `linear-gradient(0deg, rgba(191, 80, 77, 0.8), rgba(191, 80, 77, 0.8)), url(${Background})`,
+            backgroundImage: `url(${Background})`,
             backgroundRepeat: "no-repeat",
             // backgroundPosition: "center center",
-            backgroundSize: "100% 65%", // Adjusted background size to cover entire viewport
+            backgroundSize: "cover", // Adjusted background size to cover entire viewport
             margin: 0,
             height: "100vh", // Ensure full viewport height
           },

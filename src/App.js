@@ -7,6 +7,7 @@ import Home from "./pages/home";
 import Solutions from "./pages/solutions";
 import Customers from "./pages/customers";
 import About from "./pages/about";
+import Projects from "./pages/projects";
 import ContactUs from "./pages/contact";
 import "../src/assets/styles/App.css";
 import BackToTopButton from "./components/backtotop/backtotop";
@@ -23,6 +24,7 @@ const App = () => {
             <Route path="/customers" element={<Customers />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
         </div>
       </Router>

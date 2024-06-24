@@ -1,11 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { GlobalStyles } from "@mui/material";
-import Background from "../assets/images/solutions.png";
+import Background from "../assets/images/Background.png";
 import Header from "../components/solutions/headerSolution";
 import Verticals from "../components/solutions/verticalsSolutions";
 import Competence from "../components/solutions/competence";
-import Statistics from "../components/solutions/statistics";
 
 const About = () => {
   return (
@@ -31,7 +30,6 @@ const About = () => {
       <Header />
       <Verticals />
       <Competence />
-      <Statistics />
     </div>
   );
 };
