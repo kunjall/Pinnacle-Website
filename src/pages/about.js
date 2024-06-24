@@ -12,7 +12,7 @@ const About = () => {
       <GlobalStyles
         styles={{
           body: {
-            backgroundImage: `linear-gradient(0deg, rgba(191, 80, 77, 0.8), rgba(191, 80, 77, 0.8)), url(${Background})`,
+            backgroundImage: `linear-gradient(0deg, rgba(191, 80, 77, 0.3), rgba(191, 80, 77, 0.3)), url(${Background})`,
             backgroundRepeat: "no-repeat",
             // backgroundPosition: "center center",
             backgroundSize: "100% 65%", // Adjusted background size to cover entire viewport
