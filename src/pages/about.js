@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { GlobalStyles } from "@mui/material";
 import Background from "../assets/images/Background.png";
 import Header from "../components/about/headerAbout";
+import Footer from "../components/footer/footer";
 
 const About = () => {
   return (
@@ -25,6 +26,7 @@ const About = () => {
         }}
       />{" "}
       <Header />
+      <Footer />
     </div>
   );
 };

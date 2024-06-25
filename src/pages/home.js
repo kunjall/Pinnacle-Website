@@ -8,6 +8,7 @@ import Verticals from "../components/home/verticals";
 import Leading from "../components/home/leading";
 import Location from "../components/home/locations";
 import Values from "../components/home/values";
+import Footer from "../components/footer/footer";
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
       <Leading />
       <Location />
       <Values />
+      <Footer />
     </div>
   );
 };

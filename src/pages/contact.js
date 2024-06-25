@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/styles/contact.css";
 import { GlobalStyles } from "@mui/material";
 import Background from "../assets/images/Background.png";
+import Footer from "../components/footer/footer";
 
 const ContactUs = () => {
   return (

@@ -4,6 +4,7 @@ import { GlobalStyles } from "@mui/material";
 import Background from "../assets/images/solutions.png";
 import Header from "../components/solutions/headerSolution";
 import Verticals from "../components/solutions/verticalsSolutions";
+import Footer from "../components/footer/footer";
 
 const Solutions = () => {
   return (
@@ -28,6 +29,7 @@ const Solutions = () => {
       />{" "}
       <Header />
       <Verticals />
+      <Footer />
     </div>
   );
 };

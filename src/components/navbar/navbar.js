@@ -49,6 +49,11 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
+          <li>
+            <Link to="/awards" onClick={toggleDrawer}>
+              Awards & Certifications
+            </Link>
+          </li>
 
           <li>
             <Link to="/contact" onClick={toggleDrawer}>
