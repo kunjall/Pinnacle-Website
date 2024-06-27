@@ -8,7 +8,9 @@ const Statistics = () => {
     <div>
       <div className="verticals-container">
         <div className="verticals-heading">
-          <h1>Brief Statistics of Recent Projects</h1>
+          <h1 style={{ marginTop: "20px" }}>
+            Brief Statistics of Recent Projects
+          </h1>
         </div>
         <div className="verticals-row">
           <StatisticsTable />
