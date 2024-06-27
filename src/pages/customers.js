@@ -5,6 +5,7 @@ import Background from "../assets/images/Background.png";
 import Header from "../components/customers/headerCustomers";
 import Customer from "../components/customers/customersmain";
 import LogoCarousel from "../components/customers/LogoCarousel";
+import Footer from "../components/footer/footer";
 
 const Customers = () => {
   return (
@@ -29,6 +30,7 @@ const Customers = () => {
       <Header />
       <Customer />
       <LogoCarousel />
+      <Footer />
     </div>
   );
 };

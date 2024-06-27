@@ -4,6 +4,7 @@ import { GlobalStyles } from "@mui/material";
 import Background from "../assets/images/Background.png";
 import Header from "../components/projects/headerProjects";
 import Statistics from "../components/projects/statistics";
+import Footer from "../components/footer/footer";
 
 const Projects = () => {
   return (
@@ -27,6 +28,7 @@ const Projects = () => {
       />{" "}
       <Header />
       <Statistics />
+      <Footer />
     </div>
   );
 };

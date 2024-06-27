@@ -4,7 +4,8 @@ import { GlobalStyles } from "@mui/material";
 import Background from "../assets/images/Background.png";
 import Header from "../components/about/headerAbout";
 import Footer from "../components/footer/footer";
-
+import HistoryComponent from "../components/about/history";
+import Vision from "../components/about/vision";
 const About = () => {
   return (
     <div>
@@ -26,6 +27,8 @@ const About = () => {
         }}
       />{" "}
       <Header />
+      <HistoryComponent />
+      <Vision />
       <Footer />
     </div>
   );
